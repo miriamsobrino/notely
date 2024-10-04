@@ -46,7 +46,7 @@ export const NotesContainer = ({ notes, setNotes }) => {
   return (
     <section className='w-full flex flex-col '>
       <div className='flex items-end gap-2 '>
-        <span className='text-3xl  font-light'>{user?.name}'s Notes</span>
+        <span className='text-3xl  font-light'>{user?.name}&apos;s Notes</span>
       </div>
       <div className='h-[1px] bg-neutral-200 w-full mt-2'></div>
       <div className=' grid-cols-1 lg:grid-cols-5 grid '>
